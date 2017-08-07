@@ -17,7 +17,7 @@ $ catkin_make
 
 ## Run the node
 
-You have two way to run this node :
+You have two ways to run this node :
 
 You can run it with the default service name *reference*
 ```
@@ -35,7 +35,7 @@ rosrun reference_manager referencer my_referencer
 
 > In the examples below, we assume that the service has been renamed *my_referencer*
 
-- Add a new referencer
+- Add a new reference
 ```
 rosservice call /my_referencer "{param: 'an_identifier:its_reference', action: 'reference'}"
 ```

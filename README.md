@@ -1,4 +1,4 @@
-# <img src="logo/referencer.png" width="100"> reference_manager
+# <img src="logo/referencer.png" width="150"> reference_manager
 This repository is a ROS package to handle references between multiple nodes
 
 ## Installation

@@ -1,0 +1,9 @@
+#define NO_ERROR          0
+#define REQUEST_ERROR     1
+#define UNKNOW_ACTION     2
+#define UNREFERENCED_ID   3
+#define REF_ALREADY_USED  4
+#define XML_ERROR         5
+#define UNKNOW_REF        6
+#define UNKNOW_AE         7
+#define OTHER             8

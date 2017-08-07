@@ -72,9 +72,11 @@ rosservice call /my_referencer "{param: 'its_reference', action: 'unreference'}"
 This service returns an error code explaining what happened.
 All codes are as follows:
 
-- NO_ERROR          0
-- UNKNOW_ACTION     2
-- UNREFERENCED_ID   3
-- REF_ALREADY_USED  4
-- UNKNOW_REF        6
-- OTHER             8
+Error name      | Error code
+-------------   | -------------
+NO_ERROR        | 0
+UNKNOW_ACTION   | 2
+UNREFERENCED_ID | 3
+REF_ALREADY_USED| 4
+UNKNOW_REF      | 6
+OTHER           | 8

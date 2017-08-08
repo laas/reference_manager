@@ -44,7 +44,7 @@ rosservice call /my_referencer "{param: 'an_identifier:its_reference', action: '
 
 - Test if an identifier is referenced
 ```
-rosservice call /my_referencer "{param: '', action: 'list'}"
+rosservice call /my_referencer "{param: 'its_reference', action: 'is_referenced'}"
 ```
 
 - Get the identifier from its reference

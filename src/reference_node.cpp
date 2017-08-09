@@ -5,7 +5,7 @@
 #include "reference_manager/referencer.h"
 #include "reference_manager/error_code.h"
 
-#include "iot_bridge/standard_service.h"
+#include "reference_manager/standard_service.h"
 
 using namespace std;
 

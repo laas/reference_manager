@@ -11,8 +11,8 @@ using namespace std;
 
 Referencer referencer;
 
-bool reference_handle(iot_bridge::standard_service::Request  &req,
-                      iot_bridge::standard_service::Response &res)
+bool reference_handle(reference_manager::standard_service::Request  &req,
+                      reference_manager::standard_service::Response &res)
 {
   bool done = false;
   res.value = "";
